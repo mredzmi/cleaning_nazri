@@ -21,6 +21,8 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
   const gallery = [
     ["/gallery/washing-machine-before.webp", locale==="ms"?"Mesin basuh sebelum dicuci":"Washing machine before cleaning"],
     ["/gallery/washing-machine-after.webp", locale==="ms"?"Mesin basuh selepas dicuci":"Washing machine after cleaning"],
+    ["/gallery/washing-machine-before-after.webp", locale==="ms"?"Hasil sebelum & selepas":"Before & after results"],
+    ["/gallery/washing-machine-parts.webp", locale==="ms"?"Bahagian mesin selepas dicuci":"Washed machine parts"],
     ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan sofa":"Sofa cleaning"],
     [washerImage, locale==="ms"?"Pembersihan mesin basuh muatan atas":"Top-load washing machine cleaning"],
     ["https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan rumah":"Home cleaning"],
@@ -49,7 +51,7 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
       <HowItWorks locale={locale}/>
       <section className="section section-soft"><div className="container">
         <div className="section-head"><span className="kicker">{locale==="ms"?"GALERI":"GALLERY"}</span><h2 className="h2">{t.galleryTitle}</h2><p className="muted">{t.gallerySub}</p></div>
-        <div className="gallery-grid">{gallery.map(([src,label],i)=><div className="gallery-item" key={src}><Image src={src} alt={label} fill sizes="(max-width:800px) 50vw, 33vw" loading={i<2?"eager":"lazy"}/><div className="gallery-caption">{label}</div></div>)}</div>
+        <div className="gallery-grid">{gallery.map(([src,label],i)=><div className="gallery-item" key={src}><Image src={src} alt={label} fill sizes="(max-width:800px) 50vw, 33vw" loading={i<4?"eager":"lazy"}/><div className="gallery-caption">{label}</div></div>)}</div>
         <div className="gallery-disclaimer">{locale==="ms"?"Foto hasil servis JomCuci":"JomCuci service results"}</div>
       </div></section>
       <section className="section"><div className="container"><div className="area-box">
