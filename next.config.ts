@@ -3,7 +3,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
-      { protocol: "https", hostname: "sneakershoot-static.sgp1.cdn.digitaloceanspaces.com" }
+      { protocol: "https", hostname: "sneakershoot-static.sgp1.cdn.digitaloceanspaces.com" },
+      { protocol: "https", hostname: "www.whirlpool.com" }
     ]
   },
   poweredByHeader: false
