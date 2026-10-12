@@ -1,7 +1,7 @@
 export const BUSINESS = {
   name: "JomCuci",
-  phoneDisplay: "013-2390481",
-  whatsappNumber: "60132390481",
-  whatsappBase: "https://wa.me/60132390481",
-  siteUrl: "https://cleaningnazri.vercel.app",
+  phoneDisplay: "011-16543022",
+  whatsappNumber: "601116543022",
+  whatsappBase: "https://wa.me/601116543022",
+  siteUrl: "https://jomcuci-redz6.vercel.app",
 } as const;
