@@ -70,7 +70,7 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
     <footer className="footer"><div className="container"><div className="footer-main">
       <div className="footer-brand"><div className="brand"><span className="brand-mark"><Sparkles size={20}/></span><span>JomCuci<span style={{color:"var(--blue)"}}>.</span></span></div><p>{t.footerDesc}</p></div>
       <div className="footer-links"><a href="#home">{t.nav.home}</a><a href="#services">{t.nav.services}</a><a href="#pricing">{t.nav.pricing}</a><a href="#contact">{t.nav.contact}</a></div>
-      <div className="footer-contact"><strong>WhatsApp: 013-2390481</strong></div>
+      <div className="footer-contact"><strong>WhatsApp: 011-16543022</strong></div>
     </div><div className="footer-bottom"><span>{t.copyright}</span><span>{locale==="ms"?"Bersih, Mudah, JomCuci.":"Clean. Easy. JomCuci."}</span></div></div></footer>
     <FloatingWhatsApp locale={locale}/>
   </>;
