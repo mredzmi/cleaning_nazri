@@ -1,0 +1,62 @@
+export type Locale = "ms" | "en";
+export const copy = {
+  ms: {
+    nav: { home:"Utama", services:"Perkhidmatan", pricing:"Harga", about:"Tentang Kami", contact:"Hubungi" },
+    navCta:"WhatsApp Admin", eyebrow:"RUANG LEBIH BERSIH, HATI LEBIH TENANG",
+    heroTitle:"Rumah Bersih,\nHidup Lebih Selesa.", heroSub:"Servis pembersihan sofa, mesin basuh dan rumah dengan harga berpatutan.",
+    heroBody:"Kami membantu memastikan ruang kediaman anda bersih, segar dan selesa.",
+    heroCta:"WhatsApp Kami", heroSecondary:"Lihat Perkhidmatan",
+    trust:["Harga Berpatutan","Tempahan Mudah","Pelbagai Servis"],
+    servicesTitle:"Servis Kami", servicesSub:"Pilih servis yang sesuai untuk keperluan rumah atau pejabat anda.",
+    from:"Bermula", book:"Tempah Servis", viewPrices:"Lihat harga",
+    washerTitle:"Pembersihan & Servis Mesin Basuh", washerDesc:"Servis pembersihan drum dan mesin basuh untuk membantu menghilangkan kotoran, sisa dan bau yang tidak menyenangkan.", washerNote:"Harga bergantung kepada kapasiti mesin basuh (KG).",
+    sofaTitle:"Pembersihan Sofa & Kerusi", sofaDesc:"Servis pembersihan sofa dan kerusi untuk kediaman serta pejabat.", home:"Rumah", office:"Pejabat",
+    sofa1:"Sofa 1 Tempat Duduk", sofa2:"Sofa 2 Tempat Duduk", sofa3:"Sofa 3 Tempat Duduk", chair1:"Kerusi Kecil", chair2:"Kerusi Sederhana", chair3:"Kerusi Besar",
+    homeCleanTitle:"Pembersihan Rumah", homeCleanDesc:"Servis pembersihan rumah untuk membantu memastikan kediaman anda sentiasa bersih, kemas dan selesa.",
+    packages:"Pilihan pakej", package1:"Pakej Asas", package2:"Pakej Dengan Bahan Pembersihan", package3:"Deep Cleaning",
+    duration1:"3–4 jam", duration2:"4 jam", deepDesc:"Sesuai untuk rumah selepas kerja renovasi.",
+    inclusions1:["Sapu","Mop","Membersihkan tandas","Lap habuk"], inclusions2:["Bahan pembersihan","Vacuum","Detergen","Pembersihan rumah"],
+    pricingTitle:"Harga Yang Jelas", pricingDesc:"Harga yang dipaparkan adalah harga permulaan. Untuk sesetengah servis, harga akhir mungkin bergantung kepada saiz, keadaan dan keperluan servis. Hubungi kami untuk pengesahan.",
+    whyTitle:"Kenapa Pilih JomCuci?", whySub:"Pembersihan yang mudah bermula dengan komunikasi yang jelas.",
+    why:[["Harga Berpatutan","Harga yang jelas untuk membantu anda merancang keperluan pembersihan."],["Tempahan Mudah","Bertanya dan membuat tempahan secara terus melalui WhatsApp."],["Pelbagai Servis","Pilihan pembersihan sofa, kerusi, mesin basuh dan rumah."],["Mudah Dihubungi","Hubungi admin kami secara terus untuk pertanyaan."]],
+    howTitle:"Cara Tempahan", howSteps:[["Hubungi Kami","Hantar pertanyaan melalui WhatsApp."],["Pilih Servis","Beritahu kami jenis servis yang diperlukan."],["Sahkan Tempahan","Bincangkan tarikh, lokasi dan butiran tempahan dengan admin."]],
+    galleryTitle:"Inspirasi Ruang Bersih", gallerySub:"Idea dan ilustrasi untuk ruang yang lebih segar.", galleryLabel:"Ilustrasi servis",
+    areaTitle:"Kami Sedia Membantu", areaDesc:"Hubungi kami untuk menyemak ketersediaan servis di kawasan anda.", areaCta:"Semak Ketersediaan",
+    contactTitle:"Rumah Lebih Bersih Bermula Di Sini.", contactDesc:"Hubungi JomCuci untuk pertanyaan harga dan tempahan servis pembersihan.", contactCta:"Hubungi Admin Melalui WhatsApp",
+    footerDesc:"Servis Pembersihan Profesional", copyright:"© 2026 JomCuci. Hak cipta terpelihara.",
+    whatsappDefault:"Hai JomCuci, saya ingin bertanya tentang servis pembersihan.", whatsappWasher:"Hai JomCuci, saya ingin bertanya tentang servis pembersihan mesin basuh. Boleh berikan maklumat lanjut?", whatsappSofa:"Hai JomCuci, saya ingin bertanya tentang harga servis pembersihan sofa atau kerusi.", whatsappHome:"Hai JomCuci, saya ingin bertanya tentang pakej pembersihan rumah. Boleh bantu saya memilih pakej yang sesuai?",
+    seoTitle:"JomCuci | Servis Pembersihan Sofa, Mesin Basuh & Rumah", seoDescription:"JomCuci menyediakan servis pembersihan sofa, mesin basuh, kerusi pejabat dan rumah. Hubungi kami melalui WhatsApp untuk pertanyaan dan tempahan.",
+    pricingUnit:"setiap servis", duration:"Tempoh anggaran", priceFrom:"Bermula RM", servicePhotography:"Foto ilustrasi"
+  },
+  en: {
+    nav: { home:"Home", services:"Services", pricing:"Pricing", about:"About", contact:"Contact" },
+    navCta:"WhatsApp Admin", eyebrow:"A FRESHER SPACE STARTS HERE",
+    heroTitle:"A Cleaner Home.\nA More Comfortable Life.", heroSub:"Affordable sofa, washing machine and home cleaning services.",
+    heroBody:"We help keep your living spaces clean, fresh and comfortable.",
+    heroCta:"WhatsApp Us", heroSecondary:"Explore Services",
+    trust:["Affordable Pricing","Easy Booking","Multiple Services"],
+    servicesTitle:"Our Services", servicesSub:"Choose the right cleaning service for your home or office.",
+    from:"From", book:"Book This Service", viewPrices:"View pricing",
+    washerTitle:"Washing Machine Cleaning & Servicing", washerDesc:"Professional drum and washing machine cleaning to help remove dirt, residue and unpleasant odours.", washerNote:"Price depends on washing machine capacity (KG).",
+    sofaTitle:"Sofa & Office Chair Cleaning", sofaDesc:"Professional cleaning services for sofas and chairs at homes and offices.", home:"Home", office:"Office",
+    sofa1:"1-Seater Sofa", sofa2:"2-Seater Sofa", sofa3:"3-Seater Sofa", chair1:"Small Chair", chair2:"Medium Chair", chair3:"Large Chair",
+    homeCleanTitle:"Home Cleaning", homeCleanDesc:"Professional home cleaning services to keep your living space clean, tidy and comfortable.",
+    packages:"Package options", package1:"Basic Cleaning Package", package2:"Cleaning Package with Materials", package3:"Deep Cleaning",
+    duration1:"3–4 hours", duration2:"4 hours", deepDesc:"Suitable for homes after renovation work.",
+    inclusions1:["Sweeping","Mopping","Bathroom cleaning","Dusting"], inclusions2:["Cleaning materials","Vacuuming","Detergent","General home cleaning"],
+    pricingTitle:"Clear & Simple Pricing", pricingDesc:"Displayed prices are starting prices. Final pricing for some services may depend on size, condition and service requirements. Contact us for confirmation.",
+    whyTitle:"Why Choose JomCuci?", whySub:"A smoother cleaning experience starts with clear communication.",
+    why:[["Affordable Pricing","Clear pricing to help you plan your cleaning needs."],["Easy Booking","Enquire and book directly through WhatsApp."],["Multiple Services","Cleaning solutions for sofas, chairs, washing machines and homes."],["Easy to Contact","Contact our admin directly for enquiries."]],
+    howTitle:"How It Works", howSteps:[["Contact Us","Send your enquiry through WhatsApp."],["Choose Your Service","Tell us which service you need."],["Confirm Your Booking","Discuss the date, location and booking details with our admin."]],
+    galleryTitle:"A Little Cleaning Inspiration", gallerySub:"Visual inspiration for fresher, more comfortable spaces.", galleryLabel:"Service illustration",
+    areaTitle:"We're Here to Help", areaDesc:"Contact us to check service availability in your area.", areaCta:"Check Availability",
+    contactTitle:"A Cleaner Home Starts Here.", contactDesc:"Contact JomCuci for cleaning service enquiries and bookings.", contactCta:"Contact Admin on WhatsApp",
+    footerDesc:"Professional Cleaning Services", copyright:"© 2026 JomCuci. All rights reserved.",
+    whatsappDefault:"Hi JomCuci, I would like to enquire about your cleaning services.", whatsappWasher:"Hi JomCuci, I would like to enquire about washing machine cleaning. Could you provide more details?", whatsappSofa:"Hi JomCuci, I would like to enquire about sofa or office chair cleaning prices.", whatsappHome:"Hi JomCuci, I would like to enquire about your home cleaning packages. Could you help me choose a suitable package?",
+    seoTitle:"JomCuci | Sofa, Washing Machine & Home Cleaning", seoDescription:"JomCuci provides sofa cleaning, washing machine cleaning, office chair cleaning and home cleaning services. Contact us on WhatsApp for enquiries and bookings.",
+    pricingUnit:"per service", duration:"Estimated duration", priceFrom:"From RM", servicePhotography:"Service photography"
+  }
+} as const;
+export function getCopy(locale: string) {
+  return copy[locale === "en" ? "en" : "ms"];
+}
