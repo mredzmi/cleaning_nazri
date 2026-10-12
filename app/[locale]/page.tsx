@@ -17,7 +17,7 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
   const locale: Locale = raw === "en" ? "en" : "ms";
   const t = getCopy(locale);
   const heroImage = "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85";
-  const washerImage = "https://sneakershoot-static.sgp1.cdn.digitaloceanspaces.com/hs-services/6903a3f7a851ff8ebd37e41c2b7bfe9e.webp";
+  const washerImage = "https://www.whirlpool.com/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/how-to-wash-shoes-opti/opti/wash-shoes-cc6.jpg?fit=constrain&fmt=png-alpha&wid=2875";
   const gallery = [
     ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan sofa":"Sofa cleaning"],
     [washerImage, locale==="ms"?"Pembersihan mesin basuh muatan atas":"Top-load washing machine cleaning"],
