@@ -19,12 +19,12 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
   const heroImage = "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85";
   const washerImage = "https://www.whirlpool.com/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/how-to-wash-shoes-opti/opti/wash-shoes-cc6.jpg?fit=constrain&fmt=png-alpha&wid=2875";
   const gallery = [
+    ["/gallery/washing-machine-before.webp", locale==="ms"?"Mesin basuh sebelum dicuci":"Washing machine before cleaning"],
+    ["/gallery/washing-machine-after.webp", locale==="ms"?"Mesin basuh selepas dicuci":"Washing machine after cleaning"],
     ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan sofa":"Sofa cleaning"],
     [washerImage, locale==="ms"?"Pembersihan mesin basuh muatan atas":"Top-load washing machine cleaning"],
     ["https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan rumah":"Home cleaning"],
-    ["https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=82", locale==="ms"?"Ruang tamu bersih":"Clean living room"],
-    ["https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Kerusi pejabat":"Office chair cleaning"],
-    ["https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Profesional pembersihan":"Professional cleaner"]
+    ["https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=82", locale==="ms"?"Ruang tamu bersih":"Clean living room"]
   ];
   return <>
     <Navbar locale={locale}/>
@@ -50,7 +50,7 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
       <section className="section section-soft"><div className="container">
         <div className="section-head"><span className="kicker">{locale==="ms"?"GALERI":"GALLERY"}</span><h2 className="h2">{t.galleryTitle}</h2><p className="muted">{t.gallerySub}</p></div>
         <div className="gallery-grid">{gallery.map(([src,label],i)=><div className="gallery-item" key={src}><Image src={src} alt={label} fill sizes="(max-width:800px) 50vw, 33vw" loading={i<2?"eager":"lazy"}/><div className="gallery-caption">{label}</div></div>)}</div>
-        <div className="gallery-disclaimer">{locale==="ms"?"Foto ilustrasi servis":"Service photography / illustration"}</div>
+        <div className="gallery-disclaimer">{locale==="ms"?"Foto hasil servis JomCuci":"JomCuci service results"}</div>
       </div></section>
       <section className="section"><div className="container"><div className="area-box">
         <div><span className="kicker"><MapPin size={13}/>{locale==="ms"?"KAWASAN SERVIS":"SERVICE AREA"}</span><h3>{t.areaTitle}</h3><p>{t.areaDesc}</p></div>
