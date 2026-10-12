@@ -17,12 +17,12 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
   const locale: Locale = raw === "en" ? "en" : "ms";
   const t = getCopy(locale);
   const heroImage = "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85";
-  const washerImage = "https://www.whirlpool.com/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/how-to-wash-shoes-opti/opti/wash-shoes-cc6.jpg?fit=constrain&fmt=png-alpha&wid=2875";
+  const washerImage = "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1000&q=82";
   const gallery = [
     ["/gallery/washing-machine-before.webp", locale==="ms"?"Mesin basuh sebelum dicuci":"Washing machine before cleaning"],
-    ["/gallery/washing-machine-after.webp", locale==="ms"?"Mesin basuh selepas dicuci":"Washing machine after cleaning"],
-    ["/gallery/washing-machine-before-after.webp", locale==="ms"?"Hasil sebelum & selepas":"Before & after results"],
-    ["/gallery/washing-machine-parts.webp", locale==="ms"?"Bahagian mesin selepas dicuci":"Washed machine parts"],
+    ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Mesin basuh selepas dicuci":"Washing machine after cleaning"],
+    ["https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Hasil sebelum & selepas":"Before & after results"],
+    ["https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Bahagian mesin selepas dicuci":"Washed machine parts"],
     ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan sofa":"Sofa cleaning"],
     [washerImage, locale==="ms"?"Pembersihan mesin basuh muatan atas":"Top-load washing machine cleaning"],
     ["https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan rumah":"Home cleaning"],
