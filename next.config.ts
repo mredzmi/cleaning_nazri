@@ -4,7 +4,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
       { protocol: "https", hostname: "sneakershoot-static.sgp1.cdn.digitaloceanspaces.com" },
-      { protocol: "https", hostname: "www.whirlpool.com" }
+      { protocol: "https", hostname: "www.whirlpool.com" },
+      { protocol: "https", hostname: "storage.googleapis.com" }
     ]
   },
   poweredByHeader: false
