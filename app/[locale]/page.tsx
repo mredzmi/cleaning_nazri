@@ -20,7 +20,7 @@ export default async function LocalePage({ params }: { params: Promise<{locale:s
   const washerImage = "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1000&q=82";
   const gallery = [
     ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan sofa":"Sofa cleaning"],
-    ["https://storage.googleapis.com/prod-qchang-v1/products/upload/20240531/2024053118333210.webp", locale==="ms"?"Pembersihan mesin basuh top load":"Top-load washing machine cleaning"],
+    ["https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan mesin basuh top load":"Top-load washing machine cleaning"],
     ["https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Pembersihan rumah":"Home cleaning"],
     ["https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=82", locale==="ms"?"Ruang tamu bersih":"Clean living room"],
     ["https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&w=1000&q=82", locale==="ms"?"Kerusi pejabat":"Office chair cleaning"],
